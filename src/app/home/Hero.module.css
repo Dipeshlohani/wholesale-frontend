@@ -1,0 +1,32 @@
+/* styles/Home.module.css */
+
+.container {
+    min-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .productGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 2rem;
+  }
+  
+  .productCard {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .productCard img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .productCard a {
+    display: block;
+    margin-top: 1rem;
+    text-decoration: none;
+    color: #0070f3;
+  }
+  
